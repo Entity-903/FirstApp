@@ -1,0 +1,10 @@
+﻿@if (!string.IsNullOrEmpty(ViewBag.FN) && !string.IsNullOrEmpty(ViewBag.LN))
+{
+	<h2>Name: @ViewBag.FN @ViewBag.LN</h2>
+}
+else 
+{
+	<div>
+		<h4> You didn't enter First Name or Last Name</h4>
+	</div>
+}
